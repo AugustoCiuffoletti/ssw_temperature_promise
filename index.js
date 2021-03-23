@@ -25,11 +25,11 @@ function display(city) {
   });
 }
 function media() {
-  let t = 0;
+  let media = 0;
   for (let city of cityElems) {
     doCity(city.innerHTML, data => data.main.temp).then(temp => {
-      t += temp / cityElems.length;
-      document.getElementById("media").innerText = t;
+      media += temp / cityElems.length;
+      document.getElementById("media").innerText = media;
     });
   }
 }
