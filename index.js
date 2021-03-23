@@ -12,7 +12,7 @@ calcoloMedia.onclick = () => media();
 
 function doCity(city, callback) {
   fetch(URL + city)
-  .then(response => response.json())
+  .then(response => response.json(), error => alert(error))
   .then(data => callback(data));
 }
 
