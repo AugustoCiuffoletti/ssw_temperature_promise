@@ -10,7 +10,7 @@ var cityElems = document.getElementsByClassName("citta");
 for (let elem of cityElems) {
   elem.onclick = () => display(elem.innerHTML);
 }
-calcoloMedia.onclick = () => media();
+document.getElementById("calcoloMedia").onclick = () => media();
 
 function doCity(city, callback) {
   let promise = fetch(URL + city)
