@@ -1,7 +1,7 @@
 // Import stylesheets
 import "./style.css";
 
-const apiKey = "9bd419b49d4261031516ad5fddac3439";
+const apiKey = "d0475be3a1967b1b49dfc02c8128001a";
 const URL =
   "https://api.openweathermap.org/data/2.5/weather?APPID=" +
   apiKey +
